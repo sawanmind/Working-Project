@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bitmap" translatesAutoresizingMaskIntoConstraints="NO" id="3we-Nf-7Rt">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 4" translatesAutoresizingMaskIntoConstraints="NO" id="Guv-UK-DH4">
+                                <rect key="frame" x="16" y="260" width="343" height="146"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3we-Nf-7Rt" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="0p6-Yu-qVh"/>
+                            <constraint firstItem="3we-Nf-7Rt" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="E7i-dB-JJz"/>
+                            <constraint firstItem="3we-Nf-7Rt" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="P89-8Y-rBv"/>
+                            <constraint firstItem="3we-Nf-7Rt" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="cVu-1L-MtV"/>
+                            <constraint firstItem="3we-Nf-7Rt" firstAttribute="centerY" secondItem="Guv-UK-DH4" secondAttribute="centerY" id="fKN-TR-ou8"/>
+                            <constraint firstItem="Guv-UK-DH4" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="240" id="j3v-GY-k78"/>
+                            <constraint firstItem="Guv-UK-DH4" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="svc-lr-UnP"/>
+                            <constraint firstItem="3we-Nf-7Rt" firstAttribute="centerX" secondItem="Guv-UK-DH4" secondAttribute="centerX" id="xx1-qw-Hhg"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Bitmap" width="640" height="1141"/>
+        <image name="Group 4" width="528" height="155"/>
+    </resources>
+</document>
